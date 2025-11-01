@@ -1,0 +1,166 @@
+[
+  {
+    "experiment_id": 1,
+    "experiment_type": "Traditional ML",
+    "model_name": "Random Forest",
+    "parameters": {
+      "class_weight": "balanced",
+      "max_depth": 20,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 300
+    },
+    "metrics": {
+      "accuracy": 0.9358288770053476,
+      "precision": 0.9263157894736842,
+      "recall": 0.946236559139785,
+      "f1": 0.9361702127659575,
+      "roc_auc": 0.979466941203386
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.019702513255567967,
+      "socioeconomic_score": 0.032409971315150526,
+      "support_systems": 0.02852552541216244,
+      "digital_socioeconomic_gap": 0.00884811267543794,
+      "school": 0.009138351467036536,
+      "age": 0.02138686820333985,
+      "address": 0.012930431360449697,
+      "Medu": 0.01956622107672308,
+      "Fedu": 0.0193666656279519,
+      "Mjob": 0.021744179791846847,
+      "reason": 0.026392054112595254,
+      "guardian": 0.011745124056340615,
+      "studytime": 0.025756638323790226,
+      "failures": 0.03412682343709424,
+      "famsup": 0.009308789487094772,
+      "paid": 0.012714449051598119,
+      "higher": 0.013468119640632317,
+      "internet": 0.009748641131788761,
+      "romantic": 0.010037933130003035,
+      "famrel": 0.036001581962422625,
+      "freetime": 0.022738152198396817,
+      "goout": 0.02512002329241719,
+      "Walc": 0.03483282859963319,
+      "absences": 0.04762008114296218,
+      "G1": 0.48676992024756377
+    },
+    "insights": "Best F1: 0.9362",
+    "timestamp": "2025-11-01T14:55:03.135066"
+  },
+  {
+    "experiment_id": 2,
+    "experiment_type": "Traditional ML",
+    "model_name": "Gradient Boosting",
+    "parameters": {
+      "learning_rate": 0.15,
+      "max_depth": 5,
+      "min_samples_split": 5,
+      "n_estimators": 200,
+      "subsample": 0.9
+    },
+    "metrics": {
+      "accuracy": 0.9411764705882353,
+      "precision": 0.9270833333333334,
+      "recall": 0.956989247311828,
+      "f1": 0.9417989417989417,
+      "roc_auc": 0.9686570578814917
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.008333170339212237,
+      "socioeconomic_score": 0.019197995275372363,
+      "support_systems": 0.028970544672421047,
+      "digital_socioeconomic_gap": 0.004091317565478742,
+      "school": 0.006292034445673482,
+      "age": 0.009224840792694384,
+      "address": 0.003402182656873695,
+      "Medu": 0.006451226069127014,
+      "Fedu": 0.014332478275391209,
+      "Mjob": 0.01988883666749965,
+      "reason": 0.014028679797694666,
+      "guardian": 0.003498329077564133,
+      "studytime": 0.0158423542985027,
+      "failures": 0.011085705505837623,
+      "famsup": 0.006908541524500708,
+      "paid": 0.00523228880420385,
+      "higher": 0.00628589857846168,
+      "internet": 0.002862195416117807,
+      "romantic": 0.008699212611054497,
+      "famrel": 0.02196838979491588,
+      "freetime": 0.01071552625430334,
+      "goout": 0.01864652151342343,
+      "Walc": 0.015208786692330166,
+      "absences": 0.06976444887850825,
+      "G1": 0.6690684944928376
+    },
+    "insights": "Best F1: 0.9418",
+    "timestamp": "2025-11-01T14:55:03.135225"
+  },
+  {
+    "experiment_id": 3,
+    "experiment_type": "Traditional ML",
+    "model_name": "Logistic Regression",
+    "parameters": {
+      "C": 0.1,
+      "class_weight": "balanced",
+      "penalty": "l2",
+      "solver": "liblinear"
+    },
+    "metrics": {
+      "accuracy": 0.9090909090909091,
+      "precision": 0.9042553191489362,
+      "recall": 0.9139784946236559,
+      "f1": 0.9090909090909091,
+      "roc_auc": 0.9555021734156943
+    },
+    "feature_importance": {
+      "digital_access_composite": 0.06523336572441793,
+      "socioeconomic_score": 0.27368038846802006,
+      "support_systems": 0.059900938015057456,
+      "digital_socioeconomic_gap": 0.3947671524106158,
+      "school": 0.3843764259234232,
+      "age": 0.16174284896501293,
+      "address": 0.39157340453109307,
+      "Medu": 0.0012313435034681229,
+      "Fedu": 0.23593302717140335,
+      "Mjob": 0.07030192160259828,
+      "reason": 0.30835701213949435,
+      "guardian": 0.19095348469300846,
+      "studytime": 0.15816564455459992,
+      "failures": 0.41979358497475694,
+      "famsup": 0.11691595492131394,
+      "paid": 0.14481507920352515,
+      "higher": 0.18521479048917608,
+      "internet": 0.05640791054282771,
+      "romantic": 0.03973681819693361,
+      "famrel": 0.4039907795861108,
+      "freetime": 0.08672143329174116,
+      "goout": 0.15562462374016545,
+      "Walc": 0.41909388008701115,
+      "absences": 0.12100194063220325,
+      "G1": 2.8170337960415393
+    },
+    "insights": "Best F1: 0.9091",
+    "timestamp": "2025-11-01T14:55:03.135275"
+  },
+  {
+    "experiment_id": 4,
+    "experiment_type": "Traditional ML",
+    "model_name": "SVM",
+    "parameters": {
+      "C": 1,
+      "class_weight": "balanced",
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "metrics": {
+      "accuracy": 0.9197860962566845,
+      "precision": 0.89,
+      "recall": 0.956989247311828,
+      "f1": 0.922279792746114,
+      "roc_auc": 0.9743765728666209
+    },
+    "feature_importance": {},
+    "insights": "Best F1: 0.9223",
+    "timestamp": "2025-11-01T14:55:03.135325"
+  }
+]
